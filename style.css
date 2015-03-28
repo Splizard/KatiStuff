@@ -12,7 +12,7 @@ body{
 a:hover{text-decoration: none; cursor:pointer;}
 
 
-   
+
 
 
 /* Globals type styling */
@@ -49,6 +49,38 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 .bloc-sm{
 	padding:20px 0;
+}
+
+
+/* Bloc - Dark theme */
+
+.d-bloc{
+	color:rgba(255,255,255,.7);
+}
+.d-bloc button:hover{
+	color:rgba(255,255,255,.9);
+}
+.d-bloc h1, .d-bloc h2, .d-bloc h3, .d-bloc h4,.d-bloc h5, .d-bloc h6, .d-bloc .ico{
+	color:rgba(255,255,255,.9);
+}
+.d-bloc .icon-round{
+	border-color:rgba(255,255,255,.9);
+}
+.d-bloc .divider-h span{
+	border-color:rgba(255,255,255,.2);
+}
+.d-bloc a{
+	color:rgba(255,255,255,.6);
+}
+.d-bloc a:hover{
+	color:rgba(255,255,255,1);
+}
+.d-bloc .navbar-toggle .icon-bar{
+	background:rgba(255,255,255,1);
+}
+.d-bloc .btn-wire,.d-bloc .btn-wire:hover{
+	color:rgba(255,255,255,1);
+	border-color:rgba(255,255,255,1);
 }
 
 
@@ -95,17 +127,37 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 /* Custom bloc styling */
 
-#nav-bloc,#bloc-1,#bloc-3,#bloc-4,#bloc-7,#bloc-8,#bloc-9,#bloc-10,#bloc-11,#bloc-12{
+#nav-bloc,#bloc-2,#bloc-3,#bloc-6,#bloc-7,#bloc-9,#bloc-10,#bloc-11{
 	background-color:#ffffff;
 }
-#bloc-2,#bloc-5,#bloc-6,#bloc-13{
-	background-color:#ffffff;
+#bloc-1,#bloc-4,#bloc-8,#bloc-12{
+	background-color:#545454;
 }
-#bloc-13 h3{
+#bloc-5{
+	background-color:#5b5b5b;
+}
+#bloc-2 h2,#bloc-2 h2,#bloc-3 h1,#bloc-7 h3,#bloc-7 h3,#bloc-7 h3,#bloc-7 h3,#bloc-7 h3,#bloc-7 h3,#bloc-8 h3,#bloc-8 h3,#bloc-8 h3,#bloc-8 h3,#bloc-8 h3,#bloc-8 h3,#bloc-9 h2,#bloc-11 h3,#bloc-11 h3,#bloc-11 h3,#bloc-11 h3{
+	color:#545454;
+}
+#bloc-4 h1,#bloc-12 h3{
+	color:#5b5b5b;
+}
+#bloc-1,#bloc-7,#bloc-8,#bloc-9,#bloc-11{
+	color:#545454;
+}
+#bloc-12 h3{
 	line-height: 50px;
 	font-size: 10px;
 }
 
+/* Bloc image backgrounds */
+
+.bg-Backgroung{
+	background-image:url("img/Backgroung.png");
+}
+.bg-Backgroung{
+	background-image:url("img/Backgroung.png");
+}
 
 /* NavBar */
 
@@ -205,16 +257,16 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* Button colour styles */
 
 .btn-c-1{
-	background:#ffffff;
-	color:rgba(0,0,0,.5)!important;
+	background:#545454;
+	color:#FFF!important;
 }
 .btn-c-1:hover{
-	background:#cccccc;
-	color:rgba(0,0,0,.5)!important;
+	background:#434343;
+	color:#FFF!important;
 }
 .wire-btn-c-1{
-	color:#ffffff!important;
-	border-color:#ffffff!important;
+	color:#545454!important;
+	border-color:#545454!important;
 }
 
 
